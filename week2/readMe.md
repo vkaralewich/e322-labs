@@ -29,7 +29,8 @@ Redacted IP addresses and ports
 
 ping localhost
 
-`PING localhost (Redacted): 56 data bytes
+```
+PING localhost (Redacted): 56 data bytes
 64 bytes from Redacted: icmp_seq=0 ttl=64 time=0.117 ms
 64 bytes from Redacted: icmp_seq=1 ttl=64 time=0.222 ms
 64 bytes from Redacted: icmp_seq=2 ttl=64 time=0.179 ms
@@ -45,11 +46,13 @@ ping localhost
 ^C
 --- localhost ping statistics ---
 12 packets transmitted, 12 packets received, 0.0% packet loss
-round-trip min/avg/max/stddev = 0.099/0.184/0.253/0.047 ms`
+round-trip min/avg/max/stddev = 0.099/0.184/0.253/0.047 ms
+```
 
 ifconfig
 
-`lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+```
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
 	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
 	inet Redacted netmask 0xff000000 
 	inet6 ::1 prefixlen 128 
@@ -168,11 +171,13 @@ utun3: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
 	nd6 options=201<PERFORMNUD,DAD>
 utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
 	inet6 Redacted prefixlen 64 scopeid 0x17 
-	nd6 options=201<PERFORMNUD,DAD>`
+	nd6 options=201<PERFORMNUD,DAD>
+```
 
  df
 
- `Filesystem     512-blocks      Used Available Capacity iused      ifree %iused  Mounted on
+ ```
+ Filesystem     512-blocks      Used Available Capacity iused      ifree %iused  Mounted on
 /dev/disk3s1s1  965595304  23413280 355322688     7%  356093 1776613440    0%   /
 devfs                 405       405         0   100%     702          0  100%   /dev
 /dev/disk3s6    965595304  14680208 355322688     4%       7 1776613440    0%   /System/Volumes/VM
@@ -184,7 +189,8 @@ devfs                 405       405         0   100%     702          0  100%   
 /dev/disk3s5    965595304 548303792 355322688    61% 5330210 1776613440    0%   /System/Volumes/Data
 map auto_home           0         0         0   100%       0          0  100%   /System/Volumes/Data/home
 /dev/disk5s1      8069120   7585864    451256    95%  273178    2256280   11%   /Library/Developer/CoreSimulator/Volumes/watchOS_20S75
-/dev/disk3s1    965595304  23413280 355322688     7%  356052 1776613440 `
+/dev/disk3s1    965595304  23413280 355322688     7%  356052 1776613440
+```
 
 
 
