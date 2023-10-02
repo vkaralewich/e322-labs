@@ -8,7 +8,8 @@ List of commands ran in the terminal
 
 netstat
 
-`Active Internet connections
+```
+Active Internet connections
 Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
 Redacted IP addresses and ports
 Redacted IP addresses and ports
@@ -24,7 +25,7 @@ Redacted IP addresses and ports
 Redacted IP addresses and ports
 Redacted IP addresses and ports
 Redacted IP addresses and ports
-`
+```
 
 ping localhost
 
